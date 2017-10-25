@@ -1,6 +1,6 @@
 class ArrayManipulation {
 	// solution 1
-	public static int[] add_one(int[] given_array) {
+	public static int[] arrayToArray(int[] given_array) {
 		int carry = 1;
 		int[] result = new int[given_array.length];
 		
@@ -16,7 +16,7 @@ class ArrayManipulation {
 		return result;
 	}
 	// solution 2
-	public static int toString(int[] given_array){
+	public static int stringToNum(int[] given_array){
 		String s = "";
 		for(int i = 0; i < given_array.length; i++){
 			s += String.valueOf(given_array[i]);
@@ -27,13 +27,13 @@ class ArrayManipulation {
 	
 	public static void main(String[] args){
 		int[] nums = {2,9,9,8,9};
-		int[] result = add_one(nums);
+		int[] result = arrayToArray(nums);
 		
 		for(int i : result){
 			System.out.print(i);
 		}
 		
 		System.out.println("");
-		System.out.print(toString(nums));
+		System.out.print(stringToNum(nums));
 	}
 }
