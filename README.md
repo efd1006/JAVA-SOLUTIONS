@@ -7,8 +7,10 @@
 
 		string = "ABCA"
 		output: A
+		
 		string = "BAACB"
 		output: B
+		
 		string = "ABC"
 		output: No recurring character
 		
@@ -19,8 +21,10 @@
 	
 		[1,2,3]
 		output: 124
+		
 		[1,3,9]
 		output: 140
+		
 		[9,9,9]
 		output: 1000
 				
