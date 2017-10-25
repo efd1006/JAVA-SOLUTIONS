@@ -14,7 +14,7 @@
 		string = "ABC"
 		output: No recurring character
     
-  Solution File Name: FirstRecurringChracter.java
+  - Solution File Name: FirstRecurringChracter.java
 		
 # PROBLEM 2:
  - Given an array of integers [1,2,3] the array represents 123 the goal is to add 1 so that the output will become 124.
@@ -30,6 +30,6 @@
 		[9,9,9]
 		output: 1000
     
-  Solution File Name: ArrayManipulation.java
+  - Solution File Name: ArrayManipulation.java
   
   
