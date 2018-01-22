@@ -67,11 +67,12 @@
  - Write a program to find two nodes of a given tree are siblings or not
  
 	Example: 
-	     1
-	   /   \
-	  2     3
-	 / \   / \
-	4   5 6   7
+	
+	        1
+	      /   \
+	     2     3
+	    / \   / \
+	   4  5  6   7
 	
 	Expected Result:	
 		
