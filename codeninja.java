@@ -1,17 +1,17 @@
 class Shape {
 	int width;
-	int heigth;
+	int height;
 	int indent;
 	int param_num;
-	Shape(int width, int heigth, int indent) {
+	Shape(int width, int height, int indent) {
 		this.width = width;
-		this.heigth = heigth;
+		this.height = height;
 		this.indent = indent;
 	}
 	public int checkParams() {
-		if(this.width != 0 && this.heigth == 0 && this.indent == 0){
+		if(this.width != 0 && this.height == 0 && this.indent == 0){
 			return 1;
-		}else if(width != 0 && heigth != 0 && indent == 0){
+		}else if(width != 0 && height != 0 && indent == 0){
 			 return 2;
 		}
 		return 3;
@@ -30,7 +30,7 @@ class Shape {
 			break;
 			
 			case 2:
-				for(int i = 0; i<this.heigth; i++) {
+				for(int i = 0; i<this.height; i++) {
 					for(int j = this.width; j > 0; j--) {
 						System.out.print("*");
 					}
@@ -39,7 +39,7 @@ class Shape {
 			break;
 			
 			case 3:
-				for(int i = 0; i<this.heigth; i++){
+				for(int i = 0; i<this.height; i++){
 					for(int k = this.indent; k > 0; k--) {
 						System.out.print(" ");
 					}
