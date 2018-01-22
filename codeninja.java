@@ -8,7 +8,7 @@ class Shape {
 		this.height = height;
 		this.indent = indent;
 	}
-	public int checkParams() {
+	public int countParams() {
 		if(this.width != 0 && this.height == 0 && this.indent == 0){
 			return 1;
 		}else if(width != 0 && height != 0 && indent == 0){
@@ -17,7 +17,7 @@ class Shape {
 		return 3;
 	}
 	public void draw() {
-		param_num = checkParams();
+		param_num = countParams();
 		switch(param_num) {
 			
 			case 1:
