@@ -54,9 +54,9 @@
 	Given the following parameter: 5,3,2 (where 5 is the width and 3 is the height and 2 is the indent length) 
 	Expected Result:	
 		
-		*****
 		 *****
 		  *****
+		   *****
     
   - Solution File Name: codeninja.java
   
