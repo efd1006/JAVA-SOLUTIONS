@@ -63,4 +63,21 @@
     
   - Solution File Name: codeninja.java
   
-  
+    # PROBLEM 4:
+ - Write a program to find two nodes of a given tree are siblings or not
+ 
+	Example: 
+	     1
+	   /   \
+	  2     3
+	 / \   / \
+	4   5 6   7
+	
+	Expected Result:	
+		
+		4 and 5 are siblings? true
+		6 and 7 are siblings? true
+		4 and 7 are siblings? false
+		1 and 7 are siblings? false
+		
+  - Solution File Name: Tree.java
