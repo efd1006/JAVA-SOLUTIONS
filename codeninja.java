@@ -3,11 +3,22 @@ class Shape {
 	int height;
 	int indent;
 	int param_num;
+	
+	Shape(int width) {
+		this.width = width;
+	}
+	
+	Shape(int width, int height) {
+		this.width = width;
+		this.height = height;
+	}
+	
 	Shape(int width, int height, int indent) {
 		this.width = width;
 		this.height = height;
 		this.indent = indent;
 	}
+	
 	public int countParams() {
 		if(this.width != 0 && this.height == 0 && this.indent == 0){
 			return 1;
@@ -55,7 +66,35 @@ class Shape {
 }
 class codeninja {
 	public static void main(String[] args) {
-		Shape shape = new Shape(5,2,0);
+		Shape shape;
+		// one parameter passing
+		System.out.println("One parameter passing");
+		shape = new Shape(3);
 		shape.draw();
+		/**
+			Output:
+			***
+			***
+			***
+		**/
+		// two parameter passing 
+		System.out.println("Two parameter passing");
+		shape = new Shape(5,2);
+		shape.draw();
+		/**
+			Output:
+			*****
+			*****
+		**/
+		// three parameter passing 
+		System.out.println("Three parameter passing");
+		shape = new Shape(5,3,2);
+		shape.draw();
+		/**
+			Output:
+			*****
+			 *****
+			  *****
+		**/
 	}
 }
