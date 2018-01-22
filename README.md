@@ -32,4 +32,32 @@
     
   - Solution File Name: ArrayManipulation.java
   
+  # PROBLEM 3:
+ - Write an algorithm that will draw using any character relative to given parameters
+ 
+	Example 1: 
+	Given the following parameter: 3 
+	Expected Result:	
+	
+		***
+		***
+		***
+		
+	Example 2: 
+	Given the following parameter: 5,2 (where 5 is the width and 2 is the height) 
+	Expected Result:	
+		
+		*****
+		*****
+		
+	Example 3: 
+	Given the following parameter: 5,3,2 (where 5 is the width and 3 is the height and 2 is the indent length) 
+	Expected Result:	
+		
+		*****
+		 *****
+		  *****
+    
+  - Solution File Name: codeninja.java
+  
   
