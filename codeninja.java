@@ -2,7 +2,6 @@ class Shape {
 	int width;
 	int height;
 	int indent;
-	int param_num;
 	
 	Shape(int width) {
 		this.width = width;
@@ -28,7 +27,7 @@ class Shape {
 		return 3;
 	}
 	public void draw() {
-		param_num = countParams();
+		int param_num = countParams();
 		switch(param_num) {
 			
 			case 1:
